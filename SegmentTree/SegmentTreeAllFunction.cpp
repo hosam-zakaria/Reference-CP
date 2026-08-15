@@ -1,3 +1,12 @@
+// update_set → a[pos] = val
+// update_add → a[pos] += val
+// update_max → a[pos] = max(a[pos], x)
+// update_min → a[pos] = min(a[pos], x)
+// first_greater → Find the first index with value >= x
+// lower_bound → Find the first index where prefix sum >= x
+// kth → Find the index of the k-th element/one
+
+
 #include <bits/stdc++.h>
 #define ll long long
 using namespace std;
